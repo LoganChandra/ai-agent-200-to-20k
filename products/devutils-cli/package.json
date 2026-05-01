@@ -1,0 +1,27 @@
+{
+  "name": "@logan/DevUtils-cli",
+  "version": "0.1.0",
+  "description": "Zero-dependency developer utility CLI for formatting, encoding, hashing, inspection, colors, text, and network helpers.",
+  "license": "MIT",
+  "private": true,
+  "type": "commonjs",
+  "bin": {
+    "devutils": "bin/devutils.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "smoke": "node test/smoke.test.js",
+    "check": "node --check bin/devutils.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "cli",
+    "developer-tools",
+    "json",
+    "hash",
+    "formatter",
+    "zero-dependency"
+  ]
+}
