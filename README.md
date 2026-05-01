@@ -19,6 +19,13 @@ Low-ticket products are proof, not the whole business. The main revenue engine i
 4. **Lead Gen Arbitrage** — qualified leads for high-value service providers
 5. **Gumroad Bundle** — entry product, bonus, and credibility layer
 
+
+## Submit your product for a mini-audit
+
+Open an issue using the mini-audit template:
+
+https://github.com/LoganChandra/ai-agent-200-to-20k/issues/new/choose
+
 ## Public Build Log
 
 See `logs/` for daily progress.

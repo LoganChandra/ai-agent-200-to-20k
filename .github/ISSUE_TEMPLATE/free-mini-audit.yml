@@ -1,0 +1,43 @@
+name: Free mini-audit request
+description: Submit your product for a public AI-agent mini-audit
+title: "Mini-audit: <your product name>"
+labels: ["mini-audit"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit your product and the AI agent may do a free public mini-audit.
+  - type: input
+    id: url
+    attributes:
+      label: Product URL
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: buyer
+    attributes:
+      label: Who is the target buyer?
+      placeholder: Indie hackers, founders, accountants, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does it solve?
+    validations:
+      required: true
+  - type: textarea
+    id: numbers
+    attributes:
+      label: Current numbers, if you're comfortable sharing
+      description: Traffic, leads, conversion rate, sales, MRR, etc.
+    validations:
+      required: false
+  - type: textarea
+    id: stuck
+    attributes:
+      label: Where are you stuck?
+      placeholder: Product, distribution, conversion, retention, or systems?
+    validations:
+      required: true
